@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(28, 31, 31);
+	background-color: #000;
 }
 .container {
 	box-sizing: border-box;
@@ -16,26 +16,28 @@ body {
 	justify-content: space-between;
 	align-items: flex-end;
 	background-color: #fb4447;
-	color: white;
+	color: #fff;
 }
 
 .footer-main {
 	display: flex;
 	flex-direction: row-reverse;
 	background-color: #fb4447;
-	color: white;
+	color: #fff;
+	text-decoration: none;
+	list-style: none;
 }
 
 .avatar {
 	flex-direction: column;
 	align-items: center;
-	color: white;
+	color: #fff;
 }
 
 .avatar__image {
 	overflow: hidden;
 	border-radius: 100%;
-	border: 3px solid gold;
+	border: 0.2rem solid gold;
 	width: 200px;
 	height: 200px;
 	object-fit: cover;
@@ -51,7 +53,7 @@ body {
 .main {
 	display: flex;
 	flex-direction: row;
-	background-color: white;
+	background-color: #fff;
 }
 
 .main-left {
@@ -67,31 +69,19 @@ body {
 }
 
 .navigation {
-	border: 0.3rem solid white;
-	border-radius: 7px;
+	border: 0.2rem solid #fff;
+	border-radius: 1rem;
 	margin: 1rem;
 	text-decoration: none;
 	color: aliceblue;
 }
 
-.navigation__ol a {
-	color: orange;
-}
-
 .section {
 	padding-bottom: 2rem;
-	border-bottom: 5px solid #fb4447;
+	border-bottom: 0.3rem solid #fb4447;
 }
 
 .code {
-	background-color: blue;
-	color: white;
-}
-.completed {
-	color: rgb(14, 184, 14);
-	background-color: black;
-}
-
-.disabled {
-	display: none;
+	background-color: #1414ac;
+	color: #fff;
 }
