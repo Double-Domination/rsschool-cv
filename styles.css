@@ -60,6 +60,7 @@ body {
 }
 
 .main-right {
+	padding: 1rem;
 	width: 70%;
 	display: flex;
 	flex-direction: column;
@@ -78,7 +79,7 @@ body {
 }
 
 .section {
-	margin-bottom: 2rem;
+	padding-bottom: 2rem;
 	border-bottom: 5px solid #fb4447;
 }
 
