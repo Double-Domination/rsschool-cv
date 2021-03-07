@@ -8,9 +8,6 @@
     <link rel="stylesheet" href="./normalize.css">
     <!-- <link rel="stylesheet" href="./reset.css"> -->
     <style>
-        /* 
-            block__element_modifier
-        */
         body{
             background-color: rgb(28, 31, 31);
         }
@@ -56,14 +53,12 @@
             border: 3px solid gold;
             width: 200px;
             height: 200px; 
-            display: block;
             object-fit: cover;
             object-position: 50% 50%;
             max-width: 100%;
         }
 
         .avatar__caption{
-            display: block;
             
         }
 
@@ -72,18 +67,11 @@
         }
 
         .main-left{
-            margin: 0;
-            width: 280px;
             box-sizing: border-box;
             background-color:#2a374a;
-            display: inline-block;
-            min-height:100%;
         }
 
         .main-right{
-            margin: 0;
-            width: 422px;
-            box-sizing: border-box;
             background-color: darkgrey;
             display: inline-block;
             min-height:100%;
@@ -100,12 +88,6 @@
 <body>
     <div class="container">
         <header class="header-main">
-            <figure class="avatar">
-                <img class="avatar__image" src="http://placekitten.com/g/200/300" alt="My Avatar"> 
-                <figcaption class="avatar__caption">
-                    <h2>Konstantin Chernigovskiy</h2>
-                </figcaption>
-            </figure>
             <h1>RS School CV</h1>            
             <h5>JS-Frontend course</h5>
         </header>
@@ -113,6 +95,12 @@
         <main class="main">
             
             <aside class="main-left">
+                <figure class="avatar">
+                    <img class="avatar__image" src="http://placekitten.com/g/200/300" alt="My Avatar"> 
+                    <figcaption class="avatar__caption">
+                        <h2>Konstantin Chernigovskiy</h2>
+                    </figcaption>
+                </figure>
                 <nav>
                     <h3>Navigation</h3>
                     <ol>
