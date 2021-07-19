@@ -1,86 +1,86 @@
 body {
-	background-color: #000;
+  background-color: #000;
 }
 .container {
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0 auto;
-	display: block;
-	max-width: 960px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+  display: block;
+  max-width: 960px;
 }
 
 .header-main {
-	display: flex;
-	flex-wrap: nowrap;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: flex-end;
-	background-color: #fb4447;
-	color: #fff;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #800081;
+  color: #fff;
 }
 
 .footer-main {
-	display: flex;
-	flex-direction: row-reverse;
-	background-color: #fb4447;
-	color: #fff;
-	text-decoration: none;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #fb4447;
+  color: #fff;
+  text-decoration: none;
 }
 
 .avatar {
-	flex-direction: column;
-	align-items: center;
-	color: #fff;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
 }
 
 .avatar__image {
-	overflow: hidden;
-	border-radius: 100%;
-	border: 0.2rem solid gold;
-	width: 200px;
-	height: 200px;
-	object-fit: cover;
-	object-position: 50% 50%;
-	max-width: 100%;
+  overflow: hidden;
+  border-radius: 100%;
+  border: 0.2rem solid gold;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  max-width: 100%;
 }
 
 .avatar__caption {
-	justify-content: space-around;
-	text-align: center;
+  justify-content: space-around;
+  text-align: center;
 }
 
 .main {
-	display: flex;
-	flex-direction: row;
-	background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
 }
 
 .main-left {
-	width: 30%;
-	background-color: #2a374a;
+  width: 30%;
+  background-color: #2a374a;
 }
 
 .main-right {
-	padding: 1rem;
-	width: 70%;
-	display: flex;
-	flex-direction: column;
+  padding: 1rem;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
 }
 
 .navigation {
-	border: 0.2rem solid #fff;
-	border-radius: 1rem;
-	margin: 1rem;
-	text-decoration: none;
-	color: aliceblue;
+  border: 0.2rem solid #fff;
+  border-radius: 1rem;
+  margin: 1rem;
+  text-decoration: none;
+  color: aliceblue;
 }
 
 .section {
-	padding-bottom: 2rem;
-	border-bottom: 0.3rem solid #fb4447;
+  padding-bottom: 2rem;
+  border-bottom: 0.3rem solid #fb4447;
 }
 
 .code {
-	background-color: #1414ac;
-	color: #fff;
+  background-color: #1414ac;
+  color: #fff;
 }
