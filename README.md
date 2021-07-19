@@ -1,1 +1,1 @@
-[https://double-domination.github.io/rsschool-cv/cv]
+[https://double-domination.github.io/rsschool-cv/]
