@@ -11,6 +11,8 @@ body {
 
 .header-main {
   display: flex;
+  box-sizing: border-box;
+  padding-right: 20px;
   flex-wrap: nowrap;
   flex-direction: column;
   justify-content: space-between;
@@ -68,6 +70,8 @@ body {
 }
 
 .navigation {
+  box-sizing: border-box;
+  padding: 5px;
   border: 0.2rem solid #fff;
   border-radius: 1rem;
   margin: 1rem;
