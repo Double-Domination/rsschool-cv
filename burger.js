@@ -30,7 +30,7 @@ const isMobile = {
 };
 
 if (isMobile.any() === true) {
-  document.body.classList.add('_touch');
+  document.body.classList.add('touch');
 } else {
-  document.body.classList.add('_pc');
+  document.body.classList.add('pc');
 }

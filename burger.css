@@ -68,6 +68,7 @@
 }
 
 .header__menu {
+  /*  */
 }
 
 .menu__list > li {
@@ -125,7 +126,7 @@
   display: none;
 }
 
-body._touch .menu__arrow {
+body.touch .menu__arrow {
   display: block;
   width: 0;
   height: 0;
@@ -136,17 +137,17 @@ body._touch .menu__arrow {
   margin-left: 5px;
 }
 
-body._touch .menu__link {
+body.touch .menu__link {
   flex: 1 1 auto;
 }
 
-body._touch .menu_list > li {
+body.touch .menu_list > li {
   display: flex;
   align-items: center;
 }
 
 /* GlOBAL TOUCH/ MOUSE INERACTIONS */
-body._pc .menu__list > li:hover .menu__sublist {
+body.pc .menu__list > li:hover .menu__sublist {
   opacity: 1;
   visibility: visible;
   transform: translate(0px, 0px);
